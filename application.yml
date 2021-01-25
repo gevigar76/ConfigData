@@ -1,4 +1,12 @@
 ---
+eureka:
+  client:
+    serviceUrl:
+      defaultZone: http://localhost:8010/eureka/
+  registerWithEureka: false
+  fetchRegistry: false
+  
+---
 spring:
   profiles: subject
 words: I,You,He,She,It
@@ -15,7 +23,11 @@ words: a,the
 
 ---
 spring:
-  profiles: lab-4-adjective
+  profiles: adjective
+eureka:
+  client:
+    serviceUrl:
+      defaultZone: http://localhost:8010/eureka/  
 words: reasonable,leaky,suspicious,ordinary,unlikely
 
 ---
