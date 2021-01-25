@@ -1,6 +1,6 @@
 ---
 spring:
-  profiles: default,lab-4-adjective
+  profiles: lab-4-adjective
 eureka:
   client:
     serviceUrl:
