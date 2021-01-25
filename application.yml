@@ -9,16 +9,31 @@ eureka:
 ---
 spring:
   profiles: subject
+eureka:
+  client:
+    serviceUrl:
+      defaultZone: http://localhost:8010/eureka/  
+words: reasonable,leaky,suspicious,ordinary,unlikely  
 words: I,You,He,She,It
 
 ---
 spring:
   profiles: verb
+eureka:
+  client:
+    serviceUrl:
+      defaultZone: http://localhost:8010/eureka/  
+words: reasonable,leaky,suspicious,ordinary,unlikely  
 words: ran,knew,had,saw,bought
 
 ---
 spring:
   profiles: article
+eureka:
+  client:
+    serviceUrl:
+      defaultZone: http://localhost:8010/eureka/  
+words: reasonable,leaky,suspicious,ordinary,unlikely  
 words: a,the
 
 ---
@@ -33,4 +48,9 @@ words: reasonable,leaky,suspicious,ordinary,unlikely
 ---
 spring:
   profiles: noun
+eureka:
+  client:
+    serviceUrl:
+      defaultZone: http://localhost:8010/eureka/  
+words: reasonable,leaky,suspicious,ordinary,unlikely  
 words: boat,book,vote,seat,backpack,partition,groundhog  
