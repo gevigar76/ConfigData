@@ -13,7 +13,6 @@ eureka:
   client:
     serviceUrl:
       defaultZone: http://localhost:8010/eureka/  
-words: reasonable,leaky,suspicious,ordinary,unlikely  
 words: I,You,He,She,It
 
 ---
@@ -23,7 +22,6 @@ eureka:
   client:
     serviceUrl:
       defaultZone: http://localhost:8010/eureka/  
-words: reasonable,leaky,suspicious,ordinary,unlikely  
 words: ran,knew,had,saw,bought
 
 ---
@@ -33,7 +31,6 @@ eureka:
   client:
     serviceUrl:
       defaultZone: http://localhost:8010/eureka/  
-words: reasonable,leaky,suspicious,ordinary,unlikely  
 words: a,the
 
 ---
@@ -52,5 +49,4 @@ eureka:
   client:
     serviceUrl:
       defaultZone: http://localhost:8010/eureka/  
-words: reasonable,leaky,suspicious,ordinary,unlikely  
 words: boat,book,vote,seat,backpack,partition,groundhog  
