@@ -3,50 +3,28 @@ eureka:
   client:
     serviceUrl:
       defaultZone: http://localhost:8010/eureka/
-  registerWithEureka: false
-  fetchRegistry: false
-  
+
 ---
 spring:
   profiles: subject
-eureka:
-  client:
-    serviceUrl:
-      defaultZone: http://localhost:8010/eureka/  
 words: I,You,He,She,It
 
 ---
 spring:
   profiles: verb
-eureka:
-  client:
-    serviceUrl:
-      defaultZone: http://localhost:8010/eureka/  
 words: ran,knew,had,saw,bought
 
 ---
 spring:
   profiles: article
-eureka:
-  client:
-    serviceUrl:
-      defaultZone: http://localhost:8010/eureka/  
 words: a,the
 
 ---
 spring:
   profiles: adjective
-eureka:
-  client:
-    serviceUrl:
-      defaultZone: http://localhost:8010/eureka/  
 words: reasonable,leaky,suspicious,ordinary,unlikely
 
 ---
 spring:
   profiles: noun
-eureka:
-  client:
-    serviceUrl:
-      defaultZone: http://localhost:8010/eureka/  
 words: boat,book,vote,seat,backpack,partition,groundhog  
